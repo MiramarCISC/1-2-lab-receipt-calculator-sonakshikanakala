@@ -14,7 +14,7 @@ double calculateTax(double subtotal) {
 // Example: if subtotal is 20.00 and tipPercent is 15,
 // the tip should be 3.00.
 double calculateTip(double subtotal, double tipPercent) {
-    return subtotal*tipPercent/100.0;
+    return subtotal*(tipPercent/100);// jvaldez: added parentheses to emphasize division by 100 along with getting rid of unnecessary decimal
 }
 
 // TODO: Return the final total.
